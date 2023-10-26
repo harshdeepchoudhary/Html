@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <ul>
+        <li class="cl pi">list 1</li>
+        <li id="first">list 2</li>
+        <li class="cl">list 3</li>
+
+    </ul>
+<div id="div1">
+    <h2>Heading 1</h2>
+    <p>Paeagraph 1</p>
+    <h2>Heading 2</h2>
+    <p>Paeagraph 2</p>
+    <h2>Heading 3</h2>
+    <p>Paeagraph 3</p>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script>
+       var elm= document.getElementById("first");
+       var change=elm.innerHTML="hi"
+       console.log(change)
+
+       var cl=document.getElementsByClassName("cl pi")
+       for(let i=0;i<cl.length;i++)
+       {
+        cl[i].innerHTML="<h1>Hello</h1>"
+       }
+       console.log(cl)
+
+       let div1=document.getElementById("div1");
+       let pp=div1.getElementsByTagName("h2")
+       for(let i=0;i<pp.length;i++)
+       {
+        pp[i].innerHTML="<h1>Hello</h1>"
+       }
+    </script>
+</body>
+</html>

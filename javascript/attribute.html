@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn" name="form1"></button>
+    <script>
+        let elm=document.getElementById("btn")
+        // set attribute
+        elm.setAttribute("name","form1")
+        elm.setAttribute("class","class1");
+
+        //get attribute
+       let val= elm.getAttribute("name");
+        console.log(val)
+
+        //remove attribute
+
+        elm.removeAttribute("name")
+
+        //has attribute
+        let vals=elm.hasAttribute("name")
+        console.log(vals)
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    padding: 50px 100px;
+}
+h1{
+    text-align: center;
+    background-color: blue;
+    color: wheat;
+    margin: 0px;
+}
+#textbox{
+    width: 98.9%;
+    border-color: blue;
+}
+p{
+    text-align: center;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 10px;
+    margin: 0px;
+}

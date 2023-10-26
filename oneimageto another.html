@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.a1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 2s;
+  bottom: 2px solid black;
+            height: 200px;
+            width: 200px;
+  
+  
+            margin-top: 100px;
+            float: left;
+            transition: all 2s;
+            background-image: url(bg.jpg);
+            background-size: 100% 100%;
+ 
+}
+.a1:hover{
+    width: 500px;
+    height: 500px;
+}
+.a2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  transition: all 2s;
+  
+ bottom: 2px solid black;
+            height: 200px;
+            width: 200px;
+            margin-top: 100px;
+            float: left;
+            transition: all 2s;
+            background-image: url(bg.jpg);
+            background-size: 100% 100%;
+            margin-top: 100px;
+            float: left;
+            transition: all 2s;
+            background-image: url(bg.jpg);
+            background-size: 100% 100%;
+ 
+}
+.a2:hover{
+    width: 600px;
+    height: 600px;
+}
+    </style>
+</head>
+<body><div class="parent">
+    <div class="a1"></div>
+    <div class="a2"></div>
+</div>
+    
+</body>
+</html>

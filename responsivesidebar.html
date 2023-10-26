@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title></title>
+<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+		text-decoration: none;
+		list-style: none;
+	}
+	.image{
+		float: left;
+	}
+	.img{
+		height: 200px;
+		width: 400px;
+	}
+	.pname{
+		float: left;
+		font-size: 60px;
+		line-height: 200px;
+		font-weight: bold;
+		box-sizing: border-box;
+		padding-left: 50px;
+	}
+	.icons{
+		float: left;
+		font-size: 50px;
+		line-height: 200px;
+		padding-left: 50px;
+	}
+	.menuitem{
+		clear: both;
+		background: linear-gradient(to right,gray, black);
+		line-height: 50px;
+	}
+	.li1{
+		display: inline;
+		text-align: center;
+	}
+	.items{
+		padding-left: 20px;
+		padding-right: 20px;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+		transition: all .5s;
+	}
+	.items:hover{
+		padding-left: 40px;
+		background: gray;
+	}
+	.box{
+		position: absolute;
+		left: -20px;
+	}
+	.icon1{
+		position: absolute;
+		left: -40px;
+	}
+	.icon2{
+		position: absolute;
+		left: -40px;
+	}
+	.proname{
+		display: none;
+	}
+	@media screen and (max-width: 1120px){
+		.image{
+			width: 300px;
+		}
+		.img{
+			width: 300px;
+		}
+		.pname{
+			font-size: 50px;
+		}
+		.icons{
+			font-size: 40px;
+		}
+	}
+	@media screen and (max-width: 900px){
+		.image{
+			display: none;
+		}
+	}
+	@media screen and (max-width: 600px){
+		.icons{
+			display: none;
+		}
+		.pname{
+			font-size: 30px;
+			line-height: 7px;
+			display: none;
+		}
+		.menuitem{
+			position: fixed;
+			width: 200px;
+			height: 100%;
+		}
+		.li1{
+			display: block;
+		}
+		.items{
+			display: block;
+		}
+		.box{
+			left: 230px;
+			display: none;
+		}
+		.maindiv{
+			position: fixed;
+			left: -200px;
+			transition: all .5s;
+		}
+		.icon1{
+			position: absolute;
+			left: 50px;
+			top: 30px;
+			font-size: 30px;
+		}
+		#check:checked ~ .maindiv{
+			left: 0px;
+		}
+		.icon2{
+			z-index: 1111;
+			position: absolute;
+			left: -270px;
+			top: 30px;
+			font-size: 30px;
+			background: cyan;
+			transition: all .5s;
+		}
+		#check:checked ~ label .icon2{
+			top: 20px;
+			left: 160px;
+		}
+	}
+</style>
+</head>
+<body>
+	<input type="checkbox" id="check" class="box">
+	<label for="check"> 
+		<i class="fa-solid fa-bars icon1"></i>
+		<i class="fa-solid fa-rectangle-xmark icon2"></i>
+	</label>
+<div class="maindiv">
+	<div class="header">
+		<div class="image">
+			<img src="img/1.jpg" class="img">
+		</div>
+		<div class="pname">
+			My First Project	
+		</div>
+		<div class="icons">
+			<i class="fa-brands fa-whatsapp" style="color: green;"></i>
+			<i class="fa-brands fa-twitter" style="color:blue;"></i>
+			<i class="fa-regular fa-envelope" style="color:red;"></i>
+		</div>		
+	</div>
+<div class="menuitem">
+	<ul>
+		<li class="proname">Home</li>
+		<li class="li1"><a href="" class="items">Home</a></li>
+		<li class="li1"><a href="" class="items">About Us</a></li>
+		<li class="li1"><a href="" class="items">Gamil</a></li>
+		<li class="li1"><a href="" class="items">Login</a></li>
+		<li class="li1"><a href="" class="items">Register</a></li>
+	</ul>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+#header{
+    text-align: center;
+}
+#logo{
+    width: 250px;
+    height: auto;
+}
+#menu-bar{
+    text-align: center;
+    background-color: rgb(38, 0, 255);
+}
+#menu-bar li{
+    display: inline;
+    padding: 15px 10px;
+    color: rgb(220, 218, 214);
+    font-size: 18px;
+    font-weight: bold;
+}
+#container{
+    text-align: center;
+    padding: 50px 100px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

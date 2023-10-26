@@ -1,0 +1,37 @@
+.heading{
+    font-family: 'Anton', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 4500,
+  'GRAD' 10,
+  'opsz' 244
+}
+body{
+    background-color: aqua;
+    padding: 300px;
+    margin-left: 200px;
+}
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+    background-color: brown;
+}
+.input-div{
+    display: inline-block;
+}
+.inp{
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+}
+label{
+    font-size: 22px;
+    color: rgb(14, 17, 1);
+}

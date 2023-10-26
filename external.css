@@ -1,0 +1,26 @@
+h1{
+    border-left: 10px groove  cyan;
+    border-right: 10px dotted cyan;
+    border-top: 10px solid cyan;
+
+    border-bottom: 10px dashed cyan;
+    margin-bottom: 30px;
+    width: 200px;
+
+}
+h2{
+    
+    border: 10px solid blue;
+    outline: 5px solid blue;
+    outline-offset: 5px;
+    margin-bottom:50px;
+    width: 200px;
+
+}
+h3{
+    border: 10px groove cyan ;
+    outline: 10px dotted black;
+    outline-offset: 5px;
+    width: 200px;
+    border-radius: 60px;
+}
